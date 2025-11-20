@@ -1,0 +1,1 @@
+Web Scraper Videojuegos es una aplicación de consola desarrollada en C# que realiza scraping de las principales tiendas digitales de videojuegos (Steam, Epic Games Store y GOG) para obtener información actualizada sobre ofertas, precios y descuentos. Genera una página web estática con una interfaz moderna y responsive que permite comparar precios fácilmente.
