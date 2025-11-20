@@ -1,0 +1,254 @@
+/* ============================================================
+   ESTILOS GENERALES
+   ============================================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* ============================================================
+   CONTENEDOR PRINCIPAL
+   ============================================================ */
+.container, 
+.detalle-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+    color: #666;
+}
+
+/* ============================================================
+   TARJETAS DE JUEGOS (PÁGINA PRINCIPAL)
+   ============================================================ */
+.game-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.game-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.game-image-container {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.game-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover .game-image {
+    transform: scale(1.1);
+}
+
+.game-content {
+    padding: 20px;
+}
+
+.game-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.price-section {
+    margin-bottom: 12px;
+}
+
+.discount-price {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.platforms {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.platform {
+    background: #3498db;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+.stores {
+    font-size: 0.85em;
+    color: #7f8c8d;
+}
+
+/* ============================================================
+   PAGINAS INDIVIDUALES — DETALLE DEL JUEGO
+   ============================================================ */
+.detalle-container {
+    margin-top: 40px;
+    padding: 35px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+    animation: fadeInDetail 0.4s ease;
+}
+
+@keyframes fadeInDetail {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.detalle-imagen {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    margin-bottom: 25px;
+}
+
+.detalle-titulo {
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.detalle-info {
+    margin-top: 20px;
+    font-size: 1.15em;
+    color: #444;
+    line-height: 1.7;
+}
+
+.detalle-info strong {
+    color: #2c3e50;
+}
+
+/* ============================================================
+   LISTA DE PRECIOS (DETALLE)
+   ============================================================ */
+.lista-precios {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.precio-item {
+    background: #f3f4fa;
+    padding: 16px 20px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 5px solid #667eea;
+    transition: 0.25s;
+}
+
+.precio-item:hover {
+    background: #e8e9f5;
+    transform: translateX(5px);
+}
+
+.precio-textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.precio-original {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.precio {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #e63946;
+}
+
+/* BOTÓN COMPRAR */
+.btn-buy {
+    background: #667eea;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.25s;
+}
+
+.btn-buy:hover {
+    background: #4b58d9;
+}
+
+/* BOTÓN VOLVER */
+.volver {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 12px 20px;
+    background: #667eea;
+    color: white;
+    font-size: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.volver:hover {
+    background: #4b58d9;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 768px) {
+    .detalle-container {
+        padding: 20px;
+    }
+
+    .detalle-titulo {
+        font-size: 1.7em;
+    }
+
+    .precio-item {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+}
