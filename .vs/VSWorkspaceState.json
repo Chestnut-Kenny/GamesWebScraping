@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Data",
+    "\\Interfaces",
+    "\\Models",
+    "\\obj",
+    "\\Services"
+  ],
+  "SelectedNode": "\\Services\\HtmlGenerator.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Code\\C#\\WebScraperVideojuegos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|k:\\code\\c#\\webscrapervideojuegos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|k:\\code\\c#\\webscrapervideojuegos\\interfaces\\iscraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|solutionrelative:interfaces\\iscraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|k:\\code\\c#\\webscrapervideojuegos\\services\\htmlgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|solutionrelative:services\\htmlgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|k:\\code\\c#\\webscrapervideojuegos\\models\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|solutionrelative:models\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|k:\\code\\c#\\webscrapervideojuegos\\data\\juegos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|solutionrelative:data\\juegos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|k:\\code\\c#\\webscrapervideojuegos\\services\\juegodataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|solutionrelative:services\\juegodataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|k:\\code\\c#\\webscrapervideojuegos\\services\\scrapingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08054C2-A548-9502-77E6-5FD6B895E7BC}|WebScraperVideojuegos.csproj|solutionrelative:services\\scrapingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HtmlGenerator.cs",
+              "DocumentMoniker": "K:\\Code\\C#\\WebScraperVideojuegos\\Services\\HtmlGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\HtmlGenerator.cs",
+              "ToolTip": "K:\\Code\\C#\\WebScraperVideojuegos\\Services\\HtmlGenerator.cs",
+              "RelativeToolTip": "Services\\HtmlGenerator.cs",
+              "ViewState": "AgIAAGIDAAAAAAAAAAAiwHIDAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:31:30.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Code\\C#\\WebScraperVideojuegos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "K:\\Code\\C#\\WebScraperVideojuegos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:22:49.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IScraper.cs",
+              "DocumentMoniker": "K:\\Code\\C#\\WebScraperVideojuegos\\Interfaces\\IScraper.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IScraper.cs",
+              "ToolTip": "K:\\Code\\C#\\WebScraperVideojuegos\\Interfaces\\IScraper.cs",
+              "RelativeToolTip": "Interfaces\\IScraper.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwJcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:23:29.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Videojuego.cs",
+              "DocumentMoniker": "K:\\Code\\C#\\WebScraperVideojuegos\\Models\\Videojuego.cs",
+              "RelativeDocumentMoniker": "Models\\Videojuego.cs",
+              "ToolTip": "K:\\Code\\C#\\WebScraperVideojuegos\\Models\\Videojuego.cs",
+              "RelativeToolTip": "Models\\Videojuego.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwAoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:23:43.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "juegos.txt",
+              "DocumentMoniker": "K:\\Code\\C#\\WebScraperVideojuegos\\Data\\juegos.txt",
+              "RelativeDocumentMoniker": "Data\\juegos.txt",
+              "ToolTip": "K:\\Code\\C#\\WebScraperVideojuegos\\Data\\juegos.txt",
+              "RelativeToolTip": "Data\\juegos.txt",
+              "ViewState": "AgIAANEAAAAAAAAAAAAAAPQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-19T03:19:11.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JuegoDataService.cs",
+              "DocumentMoniker": "K:\\Code\\C#\\WebScraperVideojuegos\\Services\\JuegoDataService.cs",
+              "RelativeDocumentMoniker": "Services\\JuegoDataService.cs",
+              "ToolTip": "K:\\Code\\C#\\WebScraperVideojuegos\\Services\\JuegoDataService.cs",
+              "RelativeToolTip": "Services\\JuegoDataService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwA4AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T03:22:24.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScrapingManager.cs",
+              "DocumentMoniker": "K:\\Code\\C#\\WebScraperVideojuegos\\Services\\ScrapingManager.cs",
+              "RelativeDocumentMoniker": "Services\\ScrapingManager.cs",
+              "ToolTip": "K:\\Code\\C#\\WebScraperVideojuegos\\Services\\ScrapingManager.cs",
+              "RelativeToolTip": "Services\\ScrapingManager.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T20:59:21.192Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
