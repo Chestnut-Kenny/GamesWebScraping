@@ -113,7 +113,7 @@ WebScraperVideojuegos/
 - **Gabriel Cabrera** - ***Desarrollador***
 
 ## 📝 Licencia
-Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia MIT. Ver el archivo [MIT](LICENSE) para más detalles.
 
 
 
